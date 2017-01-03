@@ -34,10 +34,11 @@ The **maxpool-5** layer of a pretrained **VGGNet-16(Deep Convolutional Neural Ne
 **Accuracy** : **69.3333 %**
 
 ## DataSet
-[openi.nlm.nih.gov](https://openi.nlm.nih.gov/gridquery.php?q=&it=x,xg&sub=x&m=1&n=101) has a large base of Xray,MRI, CT scan images publically available.Specifically Chest Xray Images have been scraped, Normal and Nodule labbeled images are futher extrated for this task.
+[openi.nlm.nih.gov](https://openi.nlm.nih.gov/gridquery.php?q=&it=x,xg&sub=x&m=1&n=101) has a large base of Xray, MRI, CT scan images publically available.  Specifically Chest Xray Images have been scraped, Normal and Nodule labbeled images are futher extrated for this task.
 
 ## How to use ?
 The above code can be used for **Deep Transfer Learning** on any Image dataset to train using VggNet as the PreTrained network. 
+
 ### Steps to follow 
 
 1. Download Data- the script download images and saves corresponding disease label in json format.
